@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css' />
+<link href={{ STATIC_URL }}css/style.css rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+{% block head %}{% endblock %}
+</head>
+
+<body>
+{% block content %}
+{% endblock %}
+
+{% block script %}
+{% endblock %}
+
+</body>
+
+</html> 
