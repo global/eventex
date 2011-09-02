@@ -1,19 +1,8 @@
 * {
-    background-color: #000000;
-    color: #ffffff;
 }
 
 .grumpy {
     font-family: 'Short Stack', cursive;
-}
-
-.center {
-    text-align: center;
-}
-
-.white {
-    background-color: #ffffff;
-    color: #000000;
 }
 
 .circle {
@@ -24,30 +13,6 @@
     color: #000000;
 }
 
- .small {
-    padding: 10px;
-    width: 10px;
-    height: 10px;
-
- }
-
- .medium {
-    padding: 10px;
-    width: 20px;
-    height: 20px;
- }
-
- .large {
-    padding: 20px;
-    width: 30px;
-    height: 30px; 
- }
-
 .menu {
     list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
 }
