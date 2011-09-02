@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Formulário de inscrição</h2>
+
+    <form action="." method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Susbcribe!" class="button">
+    </form>
+
+{% endblock content %}
